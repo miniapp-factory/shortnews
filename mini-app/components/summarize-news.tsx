@@ -23,7 +23,7 @@ export default function SummarizeNews({ topic }: SummarizeNewsProps) {
         }
         const data = await response.json();
         setSummary(data.summary);
-      } catch (error) {
+      } catch (_) {
         setSummary(
           `Could not fetch summary for "${topic}". Please try again later.`
         );
