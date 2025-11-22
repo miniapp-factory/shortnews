@@ -37,7 +37,7 @@ export default function SummarizeNews({ topic }: SummarizeNewsProps) {
   return (
     <section className="mt-6 w-full max-w-2xl">
       <h2 className="text-xl font-semibold mb-2">
-        Summary of news about "{topic}"
+        Summary of news about '{topic}'
       </h2>
       {loading ? (
         <p className="text-muted-foreground">Loading summary...</p>
